@@ -4,7 +4,11 @@
 #include <iostream>
 #include <stdio.h>
 #include <process.h>
+#include <time.h>
+#include <math.h>
+ 
 int add(int x, int y);
+void PrintTime();
 int main()
 {
     /*int dogs;
@@ -15,7 +19,15 @@ int main()
     printf("A.c is used to end a C program filename.\n");*/
     int result = add(10, 20);
     printf("result:%d \n",result);
+    PrintTime();
     system("pause");
+}
+
+void PrintTime()
+{
+    time_t t = time(NULL);
+    printf("UTC:       %s", asctime(gmtime(&t)));
+    printf("local:     %s", asctime(localtime(&t)));
 }
 
 int add(int x, int y)
