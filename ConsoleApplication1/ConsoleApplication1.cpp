@@ -9,6 +9,7 @@
  
 int add(int x, int y);
 void PrintTime();
+void Bubble();
 int main()
 {
     /*int dogs;
@@ -20,6 +21,7 @@ int main()
     int result = add(10, 20);
     printf("result:%d \n",result);
     PrintTime();
+    Bubble();
     system("pause");
 }
 
@@ -30,6 +32,14 @@ void PrintTime()
     printf("local:     %s", asctime(localtime(&t)));
 }
 
+void Bubble()
+{
+    int arr[6] = { 9,7,32,24,2323,2389 };
+    for (int i = 0; i < 6; i++)
+    {
+        printf("%d\n",arr[i]);
+    }
+}
 int add(int x, int y)
 {
     return x + y;
