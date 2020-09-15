@@ -7,6 +7,7 @@
 #include <time.h>
 #include <math.h>
 #define Height 10
+#define pi 3.14;
 
 int Calculate(int length, int width);
 void CalculateDemo();
@@ -18,11 +19,46 @@ void Demo();
 void LoopDemo();
 int Sum100();
 int NPower(int x);
+int MathPower(int x,int n);
+long MathPowerL(long x, long y);
+void PrintChar();
+void PrintFString();
+void PrintArea();
+
 int main()
 {
-	int result = NPower(5);
-	printf("%i\n", result);
+	PrintArea();
 	system("pause");
+}
+
+void PrintArea()
+{
+	double s = 10.0 * 10.0 * pi;
+	printf("%f\n", s);
+}
+void PrintFString()
+{
+	printf("Wonderful day!\n");
+}
+
+void PrintChar()
+{
+	putchar('a');
+	putchar('\n');
+	putchar('b');
+	putchar('\n');
+	putchar('c');
+	putchar('\n');
+}
+
+long MathPowerL(long x, long y)
+{
+	return pow(x, y);
+}
+
+int MathPower(int x,int n)
+{
+	return pow(x, n);
 }
 
 int NPower(int x)
@@ -41,7 +77,7 @@ int Sum100()
 	{
 		sum += i;
 	}
-	printf("%i\n", sum);
+	printf("%s\n", sum);
 	return sum;
 }
 

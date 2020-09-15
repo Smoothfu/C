@@ -1,2 +1,5 @@
 ﻿  ConsoleApplication1.cpp
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(56,12): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(61,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(80,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
   ConsoleApplication1.vcxproj -> D:\C\C\ConsoleApplication1\Debug\ConsoleApplication1.exe
