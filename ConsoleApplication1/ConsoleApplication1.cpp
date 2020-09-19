@@ -25,17 +25,30 @@ void PrintChar();
 void PrintFString();
 void PrintArea();
 void PowerDemo(int x, int y);
+void UnitDemo();
 
 int main()
 {
 	printf("%c,%c,%c\n",'a','c', 'b');
+	printf("%s", "Cherish the current moment and make every second count!\n");
 	printf("fu chou bao \n");
+	UnitDemo();
 	system("pause");
+}
+
+void UnitDemo()
+{
+	printf("%c\n", 'a');
+	int i = 10;
+	printf("%d\n", i);
+	float f = 1.1111;
+	printf("%f\n", f);
+	printf("%s", "Cherish the present moment!\n");
 }
 
 void PowerDemo(int x, int y)
 {
-	long long unsigned int l = pow(x, y);
+	unsigned long l = pow(x, y);
 	printf("%llu\n",l);
 }
 
