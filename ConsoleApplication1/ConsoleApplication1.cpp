@@ -26,18 +26,52 @@ void PrintFString();
 void PrintArea();
 void PowerDemo(int x, int y);
 void UnitDemo();
+void PrintfCH();
+void Math2Pow(int x, int y);
+void MathIntPow(int x, int y);
+void OctalDemo();
 
 int main()
 {
-	printf("%c,%c,%c\n",'a','c', 'b');
-	printf("%s", "Cherish the current moment and make every second count!\n");
-	printf("fu chou bao \n");
-	UnitDemo();
+	OctalDemo();
 	system("pause");
+}
+
+void OctalDemo()
+{
+	int value = 2567;
+	printf("Decimal value is:%d\n", value);
+	printf("Octal value is:%o\n", value);
+	printf("Hexadecimal value is :%x\n", value);
+	printf("Hexadecimal value is :%X\n", value);
+}
+
+void MathIntPow(int x, int y)
+{
+	unsigned int i = pow(x, y)-1;
+	printf("%u\n", i);
+}
+
+void Math2Pow(int x, int y)
+{
+	unsigned short   i = pow(x, y) - 1;
+	printf("%u\n", i);
+}
+
+void PrintfCH()
+{
+	int ch;
+	for (ch = 75; ch <= 100; ch++)
+	{
+		printf("ASCII value=%d,character=%c\n", ch, ch);
+	}
 }
 
 void UnitDemo()
 {
+	printf("%c,%c,%c\n", 'a', 'c', 'b');
+	printf("%s", "Cherish the current moment and make every second count!\n");
+	printf("fu chou bao \n");
 	printf("%c\n", 'a');
 	int i = 10;
 	printf("%d\n", i);
