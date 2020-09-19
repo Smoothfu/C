@@ -24,11 +24,19 @@ long MathPowerL(long x, long y);
 void PrintChar();
 void PrintFString();
 void PrintArea();
+void PowerDemo(int x, int y);
 
 int main()
 {
-	PrintArea();
+	printf("%c,%c,%c\n",'a','c', 'b');
+	printf("fu chou bao \n");
 	system("pause");
+}
+
+void PowerDemo(int x, int y)
+{
+	long long unsigned int l = pow(x, y);
+	printf("%llu\n",l);
 }
 
 void PrintArea()
@@ -36,6 +44,7 @@ void PrintArea()
 	double s = 10.0 * 10.0 * pi;
 	printf("%f\n", s);
 }
+
 void PrintFString()
 {
 	printf("Wonderful day!\n");
@@ -106,7 +115,6 @@ int Calculate(int length, int width)
 	return width * length;
 }
 
-
 void Demo()
 {
 	/*int dogs;
@@ -121,6 +129,7 @@ void Demo()
 	Bubble();
 	PrintMsg();
 }
+
 void PrintMsg()
 {
 	printf("Hello world!I'm coming!\n");
@@ -141,6 +150,7 @@ void Bubble()
 		printf("%d\n", arr[i]);
 	}
 }
+
 int Add(int x, int y)
 {
 	return x + y;
