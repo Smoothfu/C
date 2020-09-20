@@ -30,11 +30,40 @@ void PrintfCH();
 void Math2Pow(int x, int y);
 void MathIntPow(int x, int y);
 void OctalDemo();
+void FloatDemo();
+void PutCharDemo();
+void PrintStringDemo();
 
 int main()
 {
-	OctalDemo();
+	PrintStringDemo();
 	system("pause");
+}
+
+void PrintStringDemo()
+{
+	char str1[] = "Cherish the present moment and make every second count!";
+	printf("%s\n", str1);
+	char str2[] = "The wonderful world is fair and everything depend on myself!";
+	printf("%s\n", str2);
+}
+
+void PutCharDemo()
+{
+	int i = 97;
+	printf("%d\n", i);
+	printf("%c\n", i);
+	int j = 65;
+	printf("%d\n", j);
+	printf("%c\n", j);
+}
+
+void FloatDemo()
+{
+	float f = 1.22222F;
+	printf("%f\n", f);
+	long double d = 11111.3244444444444444444555554346578674L;
+	printf("%LF\n", d);
 }
 
 void OctalDemo()
