@@ -41,11 +41,26 @@ void LongIntDemo();
 void FloatDemo2();
 void DoubleDemmo();
 void LongDoubleDemo();
+void PrintIntChar();
+void PrintFChar();
 
 int main()
 {
-	LongDoubleDemo();
+	PrintFChar();
 	system("pause");
+}
+
+void PrintFChar()
+{
+	int i = 88;
+	printf("%d\n", i);
+	printf("%c\n", i);
+}
+
+void PrintIntChar()
+{
+	int a = 97;
+	putchar(a);
 }
 
 void LongDoubleDemo()
