@@ -47,17 +47,27 @@ void AutoDemo();
 void StaticDemo();
 void RegisterDemo();
 void ExternDemo();
+void PrintMsgString();
 
 int main()
 {
-	ExternDemo();
+	int i;
+	i = 6789;
+	printf("%d\n", i);
 	system("pause");
+}
+
+void PrintMsgString()
+{
+	printf("%s\n", "Cherish every second!");
 }
 
 void ExternDemo()
 {
 	extern int iExtern;
 	printf("%d\n", iExtern);
+	extern char c;
+	printf("%c\n", c);
 }
 
 void RegisterDemo()
