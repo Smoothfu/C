@@ -1,13 +1,2 @@
-﻿  ConsoleApplication1.cpp
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(112,23): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(118,19): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(124,13): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(130,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(181,17): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(187,21): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(208,18): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(215,18): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(242,12): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(247,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(266,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+﻿  externdemo.cpp
   ConsoleApplication1.vcxproj -> D:\C\C\ConsoleApplication1\Debug\ConsoleApplication1.exe

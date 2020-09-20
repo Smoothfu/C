@@ -46,13 +46,18 @@ void PrintFChar();
 void AutoDemo();
 void StaticDemo();
 void RegisterDemo();
+void ExternDemo();
 
 int main()
 {
-	RegisterDemo();
-	RegisterDemo();
-	RegisterDemo();
+	ExternDemo();
 	system("pause");
+}
+
+void ExternDemo()
+{
+	extern int iExtern;
+	printf("%d\n", iExtern);
 }
 
 void RegisterDemo()
