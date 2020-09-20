@@ -44,12 +44,29 @@ void LongDoubleDemo();
 void PrintIntChar();
 void PrintFChar();
 void AutoDemo();
+void StaticDemo();
+void RegisterDemo();
 
 int main()
 {
-	AutoDemo();
-	AutoDemo();
+	RegisterDemo();
+	RegisterDemo();
+	RegisterDemo();
 	system("pause");
+}
+
+void RegisterDemo()
+{
+	register int i = 10;
+	i += 10;
+	printf("%d\n", i);
+}
+
+void StaticDemo()
+{
+	static int i = 10;
+	i += 10;
+	printf("%d\n", i);
 }
 
 void AutoDemo()
