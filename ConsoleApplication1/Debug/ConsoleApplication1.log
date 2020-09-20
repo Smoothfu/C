@@ -1,11 +1,12 @@
 ﻿  ConsoleApplication1.cpp
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(80,17): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(86,21): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(107,18): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(114,18): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(115,9): warning C4477: 'printf' : format string '%llu' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'unsigned long'
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(115,9): message : consider using '%lu' in the format string
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(141,12): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(146,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(165,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(48,13): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(106,17): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(112,21): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(133,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(140,18): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(141,9): warning C4477: 'printf' : format string '%llu' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'unsigned long'
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(141,9): message : consider using '%lu' in the format string
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(167,12): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(172,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(191,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
   ConsoleApplication1.vcxproj -> D:\C\C\ConsoleApplication1\Debug\ConsoleApplication1.exe

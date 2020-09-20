@@ -7,7 +7,7 @@
 #include <time.h>
 #include <math.h>
 #define Height 10
-#define pi 3.14;
+#define PI 3.14;
 
 int Calculate(int length, int width);
 void CalculateDemo();
@@ -32,13 +32,39 @@ void MathIntPow(int x, int y);
 void OctalDemo();
 void FloatDemo();
 void PutCharDemo();
-void PrintStringDemo();
+void PrintStringDemo(); 
+void ShowSize();
+void SignedIntDemo();
+void UnsignedIntDemo();
 
 int main()
 {
-	PrintStringDemo();
+	UnsignedIntDemo();
 	system("pause");
 }
+
+void UnsignedIntDemo()
+{
+	unsigned i = pow(2, 32)-1;
+	printf("%u\n", i);
+}
+
+void SignedIntDemo()
+{
+	signed int num;
+	num = 0;
+	printf("%d\n", num);
+}
+
+void ShowSize()
+{
+	double fRadius;
+	double fResult = 0;
+	printf("Please input radius:");
+	scanf("%lf", &fRadius);
+	fResult = fRadius * fRadius * PI;
+	printf("The area of the circle: %lf\n", fResult);
+ }
 
 void PrintStringDemo()
 {
@@ -117,7 +143,7 @@ void PowerDemo(int x, int y)
 
 void PrintArea()
 {
-	double s = 10.0 * 10.0 * pi;
+	double s = 10.0 * 10.0 * PI;
 	printf("%f\n", s);
 }
 
