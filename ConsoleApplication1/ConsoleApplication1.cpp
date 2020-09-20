@@ -36,11 +36,25 @@ void PrintStringDemo();
 void ShowSize();
 void SignedIntDemo();
 void UnsignedIntDemo();
+void UnsignedShortDemo();
+void LongIntDemo();
 
 int main()
 {
-	UnsignedIntDemo();
+	LongIntDemo();
 	system("pause");
+}
+
+void LongIntDemo()
+{
+	unsigned long l = pow(2, 32)-1;
+	printf("%lu\n", l);
+}
+
+void UnsignedShortDemo()
+{
+	unsigned short i = pow(2, 16)-1;
+	printf("%u\n", i);
 }
 
 void UnsignedIntDemo()
@@ -51,8 +65,7 @@ void UnsignedIntDemo()
 
 void SignedIntDemo()
 {
-	signed int num;
-	num = 0;
+	signed int num = pow(2, 31) - 1;
 	printf("%d\n", num);
 }
 
