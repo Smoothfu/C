@@ -43,11 +43,20 @@ void DoubleDemmo();
 void LongDoubleDemo();
 void PrintIntChar();
 void PrintFChar();
+void AutoDemo();
 
 int main()
 {
-	PrintFChar();
+	AutoDemo();
+	AutoDemo();
 	system("pause");
+}
+
+void AutoDemo()
+{
+	auto i = 1;
+	i = i + 1;
+	printf("%d\n", i);
 }
 
 void PrintFChar()
