@@ -47,8 +47,8 @@ int main()
 
 void LongIntDemo()
 {
-	unsigned long l = pow(2, 32)-1;
-	printf("%lu\n", l);
+	unsigned long long l = pow(2, 64);
+	printf("%llu\n", l);
 }
 
 void UnsignedShortDemo()

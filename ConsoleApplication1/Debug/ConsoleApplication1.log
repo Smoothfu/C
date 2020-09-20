@@ -1,5 +1,5 @@
 ﻿  ConsoleApplication1.cpp
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(50,18): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(50,23): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
 D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(56,19): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
 D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(62,13): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
 D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(68,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
