@@ -38,16 +38,37 @@ void SignedIntDemo();
 void UnsignedIntDemo();
 void UnsignedShortDemo();
 void LongIntDemo();
+void FloatDemo2();
+void DoubleDemmo();
+void LongDoubleDemo();
 
 int main()
 {
-	LongIntDemo();
+	LongDoubleDemo();
 	system("pause");
+}
+
+void LongDoubleDemo()
+{
+	long double l = 879245234.34523654;
+	printf("%lf", l);
+}
+
+void DoubleDemmo()
+{
+	double d = 6.2835234656;
+	printf("%f\n", d);
+}
+
+void FloatDemo2()
+{
+	float f = 3.1415926F;
+	printf("%f\n", f);
 }
 
 void LongIntDemo()
 {
-	unsigned long long l = pow(2, 64);
+	unsigned long long l = pow(2, 32);
 	printf("%llu\n", l);
 }
 
@@ -65,8 +86,8 @@ void UnsignedIntDemo()
 
 void SignedIntDemo()
 {
-	signed int num = pow(2, 31) - 1;
-	printf("%d\n", num);
+	signed int num = pow(2, 15) - 1;
+	printf("%i\n", num);
 }
 
 void ShowSize()
@@ -151,7 +172,7 @@ void UnitDemo()
 void PowerDemo(int x, int y)
 {
 	unsigned long l = pow(x, y);
-	printf("%llu\n",l);
+	printf("%lu\n",l);
 }
 
 void PrintArea()
