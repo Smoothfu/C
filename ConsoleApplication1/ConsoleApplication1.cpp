@@ -51,11 +51,44 @@ void PrintMsgString();
 void ExpressionDemo();
 void AssignmentExpression();
 void DisplaySalary();
+void ConvertFloatToInt();
+void ExplicitltConvert();
+void ExplicitlyConvert();
 
 int main()
 {
-	DisplaySalary();
+	ExplicitlyConvert();
 	system("pause");
+}
+
+void ExplicitlyConvert()
+{
+	char ch;
+	short int iShort;
+	int iNum;
+	float fNum = 70000000;
+
+	ch = (char)fNum;
+	iShort = (short)fNum;
+	iNum = (int)fNum;
+	printf("The char is :%d\n", ch);
+	printf("The long is :%ld\n", iShort);
+	printf("The int is :%d\n", iNum);
+	printf("The float is:%f\n", fNum);
+}
+
+void ExplicitltConvert()
+{
+	float f = 89.8888f;
+	int i = (int)f;
+	printf("%d\n", i);
+}
+
+void ConvertFloatToInt()
+{
+	float f = 10.1f;
+	int j = f;
+	printf("%d\n", j);
 }
 
 void DisplaySalary()
