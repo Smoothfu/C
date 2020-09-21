@@ -54,11 +54,97 @@ void DisplaySalary();
 void ConvertFloatToInt();
 void ExplicitltConvert();
 void ExplicitlyConvert();
+void ConvertFahreheitToCelsius();
+void OperatorDemo();
+void IncrementDemo();
+void CompareOperatorDemo();
 
 int main()
 {
-	ExplicitlyConvert();
+	CompareOperatorDemo();
 	system("pause");
+}
+
+void CompareOperatorDemo()
+{
+	int cnScore, engScore;
+	printf("Enter Chinses score:");
+	scanf("%d", &cnScore);
+	printf("Enter English score:");
+	scanf("%d", &engScore);
+
+	if (cnScore > engScore)
+	{
+		printf("Chinese is better than english!\n");
+	}
+	else if (engScore > cnScore)
+	{
+		printf("English is better than Chinese!\n");
+	}
+	else if (cnScore == engScore)
+	{
+		printf("English is good as Chinese!\n");
+	}
+}
+
+void IncrementDemo()
+{
+	int num1 = 3;
+	int num2 = 3;
+	int preResultA, postResultA, preResultD, postResultD;
+	preResultA = ++num1;
+	postResultA = num2++;
+	
+	printf("The num1 is:%d\n", num1);
+	printf("The preResultA is:%d\n", preResultA);
+	printf("The num2 is:%d\n", num2);
+	printf("The postResultA is:%d\n", postResultA);
+
+	num1 = 3;
+	num2 = 3;
+	preResultD = -num1;
+	postResultD = num2--;
+	printf("The delete self...\n");
+	printf("The num is:%d\n", num1);
+	printf("The preResultD is:%d\n", preResultD);
+
+	printf("The num2 is:%d\n", num2);
+	printf("The postResultD is:%d\n", postResultD);
+}
+
+void OperatorDemo()
+{
+	int num1, num2, num3, result = 0;
+	num1 = 20;
+	num2 = 5;
+	num3 = 2;
+	result = num1 + num2 + num3;
+	printf("The result is:%d\n", result);
+
+	result = num1 - num2 + num3;
+	printf("The result is:%d\n", result);
+
+	result = num1 + num2 + num3;
+	printf("The result is:%d\n", result);
+
+	result = num1 / num2 * num3;
+	printf("The result is:%d\n", result);
+
+	result = (num1 + num2) * num3;
+	printf("The result is:%d\n", result);
+
+
+}
+
+void ConvertFahreheitToCelsius()
+{
+	int celsiusNum, fahrenheitNum;
+	printf("Please enter temperature :\n");
+	scanf("%d", &fahrenheitNum);
+	celsiusNum = 5 * (fahrenheitNum - 32) / 9;
+	printf("Temperature is:");
+	printf("%d ", celsiusNum);
+	printf("Degree celsius\n");
 }
 
 void ExplicitlyConvert()
