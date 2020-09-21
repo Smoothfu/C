@@ -48,13 +48,50 @@ void StaticDemo();
 void RegisterDemo();
 void ExternDemo();
 void PrintMsgString();
+void ExpressionDemo();
+void AssignmentExpression();
+void DisplaySalary();
 
 int main()
 {
-	int i;
-	i = 6789;
-	printf("%d\n", i);
+	DisplaySalary();
 	system("pause");
+}
+
+void DisplaySalary()
+{
+	int workedHours = 8;
+	int hourPay =13;
+	int grossPay = 0;
+	
+	grossPay = workedHours * hourPay;
+
+	printf("The worked hour is %d\n", workedHours);
+	printf("The hour pay is %d\n", hourPay);
+	printf("The gross pay is %d\n", grossPay);
+}
+
+void AssignmentExpression()
+{
+	int i = 10 + 10;
+	int j = i * 10;
+	printf("%d\n,%d\n", i, j);
+}
+
+void ExpressionDemo()
+{
+	int num1, num2, num3;
+	num1 = 3;
+	num2 = 7;
+	printf("The first number is:%d\n", num1);
+	printf("The second number is:%d\n", num2);
+	num3 = num1 + 10;
+	printf("The first number add 10 is :%d\n", num3);
+	num3 = num2 + 10;
+	printf("The second number add 10 is :%d\n", num3);
+	num3 = num1 + num2;
+	printf("The result of first add second is :%d\n", num3);
+
 }
 
 void PrintMsgString()
