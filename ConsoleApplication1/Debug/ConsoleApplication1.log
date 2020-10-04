@@ -1,14 +1,14 @@
 ﻿  ConsoleApplication1.cpp
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(176,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(283,23): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(289,19): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(295,13): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(301,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(352,17): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(358,21): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(379,18): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(386,18): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(413,12): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(418,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(437,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(238,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(345,23): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(351,19): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(357,13): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(363,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(414,17): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(420,21): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(441,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(448,18): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(475,12): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(480,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(499,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
   ConsoleApplication1.vcxproj -> D:\C\C\ConsoleApplication1\Debug\ConsoleApplication1.exe

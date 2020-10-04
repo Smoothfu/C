@@ -58,11 +58,73 @@ void ConvertFahreheitToCelsius();
 void OperatorDemo();
 void IncrementDemo();
 void CompareOperatorDemo();
+void CharPutDemo();
+void CharGetDemo();
+void PutsDemo();
+void GetsDemo();
+void FormatPutsDemo();
+void FormatPrintfDemo();
 
 int main()
 {
-	CompareOperatorDemo();
+	FormatPrintfDemo();
 	system("pause");
+}
+
+void FormatPutsDemo()
+{
+	int i = 10;
+	char ch = 'a';
+	printf("This is %d,the char is %c\n", i,ch);
+}
+
+void FormatPrintfDemo()
+{
+	int i = 10;
+	char ch = 'A';
+	float f = 12.34f;
+	printf("The int is %d\n", i);
+	printf("The char is %c\n", ch);
+	printf("The float is %f\n", f);
+	printf("The string is %s\n", "Cherish the present moment!!");
+}
+
+void GetsDemo()
+{
+	char ch[30];
+	fgets(ch,30, stdin);
+	puts(ch);
+}
+
+void PutsDemo()
+{
+	const	char* ch = "Cherish the present moment!";
+	puts(ch);
+	puts("Cherish\0 the present moment!");
+	puts(ch);
+	ch = "Chrish the\0Present moment!";
+	puts(ch);
+}
+
+void CharGetDemo()
+{
+	char ch = getchar();
+	putchar(ch);
+}
+
+void CharPutDemo()
+{
+	char ch1, ch2, ch3, ch4;
+	ch1 = 'H';
+	ch2 = 'e';
+	ch3 = 'l';
+	ch4 = 'o';
+	putchar(ch1);
+	putchar(ch2);
+	putchar(ch3);
+	putchar(ch3);
+	putchar(ch4);
+	putchar('\n');
 }
 
 void CompareOperatorDemo()
