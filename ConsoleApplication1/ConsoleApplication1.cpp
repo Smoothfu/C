@@ -64,11 +64,46 @@ void PutsDemo();
 void GetsDemo();
 void FormatPutsDemo();
 void FormatPrintfDemo();
+void FormatPrintFDemo();
+void ScanfDemo();
+void AddTo100();
 
 int main()
 {
-	FormatPrintfDemo();
+	AddTo100();
 	system("pause");
+}
+
+void AddTo100()
+{
+	int sum = 0;
+	int i;
+	printf("the sum from 1 to 100 is :");
+	for(int i=0;i<100;i++)
+	{
+		sum+= i;
+	}
+	printf("%d\n", sum);
+}
+
+void ScanfDemo()
+{
+	int i1, i2;
+	puts("Please enter two numbers:");
+	scanf("%d%d", &i1, &i2);
+	printf("The first is %d\n", i1);
+	printf("The second is:%d\n", i2);
+}
+
+void FormatPrintFDemo()
+{
+	long l = 100000;
+	printf("The long is %ld\n", l);
+	printf("The string is:%s\n", "Cherish");
+	printf("The string is %10s\n", "Cherish");
+	printf("The string is %-10s\n", "Cherish");
+	printf("The string is %10.3s\n", "Cherish");
+	printf("The string is %-10.3s\n", "Cherish");
 }
 
 void FormatPutsDemo()
