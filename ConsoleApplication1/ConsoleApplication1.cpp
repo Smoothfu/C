@@ -78,12 +78,28 @@ void PrintLDNum();
 void PrintChar2();
 void PrintInt32Max();
 void AddOne();
+void RegisterDemo2();
+void MixedCompute();
+
 int main()
 {
-	AddOne();
-	AddOne();
-	AddOne();
+	MixedCompute();
 	getchar();
+}
+
+void MixedCompute()
+{
+	int i = 1;
+	char c = 'A';
+	float f = 2.2f;	
+	double result = i + c + f;
+	printf("%f\n", result);
+}
+
+void RegisterDemo2()
+{
+	register int i = 10;
+	printf("%d\n", i);
 }
 
 void AddOne()
