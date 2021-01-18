@@ -67,11 +67,95 @@ void FormatPrintfDemo();
 void FormatPrintFDemo();
 void ScanfDemo();
 void AddTo100();
+void SciencePresent();
+void PutCharDemo2();
+void PrintString();
+void ConstantDemo();
+void PrintArea2();
+void PrintFNum();
+void PrintDoubleNum();
+void PrintLDNum();
+void PrintChar2();
 
 int main()
 {
-	AddTo100();
-	system("pause");
+	PrintChar2();
+	getchar();
+}
+
+void PrintChar2()
+{
+	char ch1 = 'a';
+	printf("%c\n", ch1);
+	char ch2 = 97;
+	printf("%c\n", ch2);
+}
+
+void PrintLDNum()
+{
+	long double ld = 46.257;
+	printf("%f\n", ld);
+}
+
+void PrintDoubleNum()
+{
+	double d = 61.458;
+	printf("%f\n", d);
+}
+
+void PrintFNum()
+{
+	float f = 1.23f;
+	printf("%f\n", f);
+	getchar();
+}
+
+void PrintArea2()
+{
+	double radius;
+	double size;
+	printf("Input radius:");
+	scanf("%lf", &radius);
+	size = radius * radius * 3.14;
+	printf("size is %lf\n", size);
+}
+
+void ConstantDemo()
+{
+	signed int num;
+	num = 10;
+	printf("%d\n", num);
+}
+
+void PrintString()
+{
+	printf("What a nice day!\n");
+}
+
+void PutCharDemo2()
+{
+	putchar('I');
+	putchar('\n');
+	putchar('D');
+	putchar('\n');
+	putchar('E');
+	putchar('\n');
+	putchar('V');
+	putchar('\n');
+	putchar('O');
+	putchar('\n');
+	putchar('T');
+	putchar('\n');
+	putchar('E');
+	putchar('\n');
+	putchar('D');
+	putchar('\n');
+}
+
+void SciencePresent()
+{
+	int i = 4.5e13;
+	printf("%d\n", i);
 }
 
 void AddTo100()
