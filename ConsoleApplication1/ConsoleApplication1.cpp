@@ -76,11 +76,29 @@ void PrintFNum();
 void PrintDoubleNum();
 void PrintLDNum();
 void PrintChar2();
-
+void PrintInt32Max();
+void AddOne();
 int main()
 {
-	PrintChar2();
+	AddOne();
+	AddOne();
+	AddOne();
 	getchar();
+}
+
+void AddOne()
+{
+	static int i = 1;
+	i++;
+	printf("%d\n", i);
+}
+
+void PrintInt32Max()
+{
+	int i = INT32_MAX;
+	printf("%d\n", i); 
+	printf("%d\n", INT64_MAX);
+	printf("%d\n", INT32_MAX);
 }
 
 void PrintChar2()
