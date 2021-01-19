@@ -1,19 +1,19 @@
 ﻿  ConsoleApplication1.cpp
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(116,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(116,9): message : consider using '%lld' in the format string
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(116,9): message : consider using '%I64d' in the format string
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(191,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(198,6): warning C4101: 'i': unreferenced local variable
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(391,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(498,23): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(504,19): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(510,13): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(516,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(567,17): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(573,21): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(594,18): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(601,18): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(628,12): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(633,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(652,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(128,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(128,9): message : consider using '%lld' in the format string
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(128,9): message : consider using '%I64d' in the format string
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(203,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(210,6): warning C4101: 'i': unreferenced local variable
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(403,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(510,23): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(516,19): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(522,13): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(528,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(579,17): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(585,21): warning C4244: 'initializing': conversion from 'double' to 'unsigned short', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(606,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(613,18): warning C4244: 'initializing': conversion from 'double' to 'unsigned long', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(640,12): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(645,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\C\C\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(664,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
   ConsoleApplication1.vcxproj -> D:\C\C\ConsoleApplication1\Debug\ConsoleApplication1.exe

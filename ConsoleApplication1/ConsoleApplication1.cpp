@@ -80,11 +80,22 @@ void PrintInt32Max();
 void AddOne();
 void RegisterDemo2();
 void MixedCompute();
+void GetCharPutChar();
 
 int main()
 {
-	MixedCompute();
+	GetCharPutChar();
 	getchar();
+}
+
+void GetCharPutChar()
+{
+	printf("Input char characters:\n");
+	int ch;
+	while ((ch =getchar()) != EOF)
+	{
+		putchar(ch);
+	} 
 }
 
 void MixedCompute()
